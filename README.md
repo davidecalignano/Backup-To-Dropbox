@@ -3,7 +3,7 @@
 
 Most web hosts have the ability via their control panel to offer an entire site backup, most not. So this is quick and dirty solution in php to **automatize backup of files and database, pack everything and send to your dropbox account**.
 
-####what you need:
+####What you need:
 - At least PHP 5.3
 - [*PclZip*](http://www.phpconcept.net/pclzip/) lib (included into the master) or any lib to handle zip
 - [*Dropbox PHP SDK*](https://www.dropbox.com/developers/core/sdks/php) (included into the master)
@@ -20,3 +20,5 @@ Most web hosts have the ability via their control panel to offer an entire site 
 - you can backup only data or database, or both
 - you can specify a directory to backup
 - you can exclude some file or directory from the backup's directory.
+
+![alt text](http://davidecalignano.it/wp-content/uploads/2015/07/demo_backupToDropbox.gif "Demo")
